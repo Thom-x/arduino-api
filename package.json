@@ -1,0 +1,21 @@
+{
+  "name": "arduino-api",
+  "version": "0.0.1",
+  "description": "Simple API with serial-port-json-server",
+  "main": "index.js",
+  "keywords" : ["arduino","api","serial"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository" :
+  {
+    "type" : "git",
+    "url" : "https://github.com/Thom-x/arduino-api.git"
+  },
+  "author": "MAUGIN Thomas",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "util": "^0.10.3",
+    "ws": "^0.7.1"
+  }
+}
