@@ -20,7 +20,7 @@ npm install arduino-api
 var arduinoApi = require('arduino-api');	// call arduino-api
 var API = arduinoApi();						// create our API
 API.connect('ws://localhost:8989/ws');		// connect to Arduino
-API.send({led : 255}},function(resp){       // send json to Arduino
+API.send({led : 255},function(resp){       // send json to Arduino
   console.log(resp);                        // log response
 });
 ```
